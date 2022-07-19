@@ -66,7 +66,6 @@ extern "C" __declspec(dllexport) VOID WINAPI SvchostPushServiceGlobals(LPVOID ar
 
 extern "C" __declspec(dllexport) VOID WINAPI ServiceMain(DWORD dwArgc, LPCWSTR * lpszArgv)
 {
-	__debugbreak();
 	//
 	// Get the entry point of the target ServiceMain
 	//
