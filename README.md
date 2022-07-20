@@ -6,3 +6,5 @@ A demo Windows Service proxier. It acts as a proxy to Windows UserDataService an
 2. Currently, "ServiceDll" in UserDataSvcProxy.reg points to "c:\userdatasvc\UserDataSvcProxy.dll". Adjust accordingly if you place UserDataSvcProxy.dll in other location
 3. Run UserDataSvcProxy.reg
 4. To revert the changes, you can run UserDataSvc.reg instead
+
+DISCLAIMER: This project is meant for educational purpose only. The author helds no responsbility if you use this code in a production environment and causes any damage.
